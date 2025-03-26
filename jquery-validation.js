@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // Form Validation with jQuery
+    // JQUERY Form Validation (TUGAS)
     $('#contactForm').submit(function(e) {
         e.preventDefault();
         
@@ -48,7 +48,6 @@ $(document).ready(function() {
             hideError('#messageError');
         }
         
-        // If everything is valid, submit the form (here just showing success message)
         if (isValid) {
             alert('Pesan berhasil dikirim!');
             this.reset();
@@ -65,7 +64,6 @@ $(document).ready(function() {
         $(element).prev('input, textarea').removeClass('error-input');
     }
     
-    // Add error-input class styling
     const errorStyle = document.createElement('style');
     errorStyle.textContent = `
         .error-input {
