@@ -153,8 +153,8 @@ header {
 
 .circle-bg {
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     background-color: #CFB053;
     border-radius: 50%;
     z-index: 1;
